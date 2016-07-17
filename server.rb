@@ -20,7 +20,7 @@ puts "Server started: http://localhost:#{port}/"
 root = File.expand_path './'
 server = WEBrick::HTTPServer.new Port: port, DocumentRoot: root
 
-server.mount_proc '/backend/comments' do |req, res|
+server.mount_proc '/comments' do |req, res|
   comments = JSON.parse(File.read('./backend/comments.json', encoding: 'UTF-8'))
 
   if req.request_method == 'POST'
