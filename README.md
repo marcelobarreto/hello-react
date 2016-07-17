@@ -9,3 +9,5 @@ following by
 `bower install`
 
 After doing that, you'll be able to run `ruby server.rb`
+
+Your server will run at `localhost:3000`
