@@ -1,0 +1,20 @@
+{
+  "name": "tutorial-3",
+  "authors": [
+    "Marcelo Barreto <marcelobarretojunior@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "react": "^15.2.1"
+  }
+}
